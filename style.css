@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header, .recommended-jobs, .job-listing {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+header h1, .recommended-jobs h2 {
+    color: black;
+    font-size: 24px;
+}
+
+.job-listing {
+    text-align: left;
+    background-color: #f9f9f9;
+}
+
+.apply-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+}
